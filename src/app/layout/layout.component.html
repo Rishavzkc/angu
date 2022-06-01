@@ -1,0 +1,141 @@
+
+
+<div class="main-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+        <form class="example-form">
+            <mat-toolbar>
+                <mat-toolbar-row fxLayoutAlign="space-between center">
+                <h3>
+                    Create New Layout
+                </h3>
+                <button mat-button>  <span class="material-icons">close</span></button>
+            </mat-toolbar-row>
+            </mat-toolbar>
+            <hr >
+            
+            <mat-card-content>
+                <mat-form-field class="input-container">
+                    <form>
+                    <label for ="layout" style="top: 187px;
+                    left: 510px;
+                    width: 83px;
+                    height: 19px;
+                    /* UI Properties */
+                    text-align: left;
+                    font: normal normal bold 14px/19px Roboto;
+                    letter-spacing: 0px;
+                    color: #333333;
+                    opacity: 1;">Layout Name</label> <br>
+                       <input type="layout" name="layout" class="box" placeholder="Layout 01" style="top: 213px;
+                       left: 510px;
+                       width: 465px;
+                       height: 41px;
+                       /* UI Properties */
+                       background: #FFFFFF 0% 0% no-repeat padding-box;
+                       border: 2px solid #E0E0E0;
+                       border-radius: 10px;
+                       opacity: 1;">
+
+                       <br><br><br>
+                       <label for ="layout" style="top: 278px;
+                       left: 510px;
+                       width: 118px;
+                       height: 19px;
+                       text-align: left;
+                       font: normal normal bold 14px/19px Roboto;
+                       letter-spacing: 0px;
+                       color: #333333;
+                       opacity: 1;">Layout Description</label> <br>
+                       <input type="layout" name="layout" class="box" placeholder="Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar" style="top: 304px;
+                       left: 510px;
+                       width: 465px;
+                       height: 96px;
+                       /* UI Properties */
+                       background: #FFFFFF 0% 0% no-repeat padding-box;
+                       border: 2px solid #E0E0E0;
+                       border-radius: 10px;
+                       opacity: 1;
+                       ">
+                    </form>
+                </mat-form-field>
+            
+                  <br>
+                  <h2 style="top: 424px;
+                  left: 510px;
+                  width: 164px;
+                  height: 19px;
+                  /* UI Properties */
+                  text-align: left;
+                  font: normal normal bold 14px/19px Roboto;
+                  letter-spacing: 0px;
+                  color: #333333;
+                  opacity: 1;
+                  margin: 1px 4px -1px;">Upload Sample Document</h2> 
+                  <h4 style="top: 424px;
+                  left: 510px;
+                  width: 164px;
+                  height: 19px;
+                  /* UI Properties */
+                  text-align: right;
+                  font: normal normal bold 14px/19px Roboto;
+                  letter-spacing: 0px;
+                  font: normal normal normal 12px/14px Roboto;
+                  letter-spacing: 0px;
+                  color: #999999;
+                  opacity: 1; margin: -15px 298px -4px; ">Min 5 files</h4>
+
+                 <div class="dropzone">
+                    <img src="assets/images/Layout/Group 18012@2x.jpg" alt="">
+                   <header style="font: normal normal bold 14px/19px Roboto;">Drag & Drop File</header>
+                   <h6>File format:PDF /Word document</h6>
+                   
+                  <!--<a (click)="upload()">
+                    <label style="text-decoration: underline;">Browse</label>
+                  </a>-->
+                  <label style="text-decoration: underline;">Browse
+                    <input type="file" id="FILE" name="filename" multiple style="content-visibility: hidden;"></label>
+                   
+                 </div>
+                 
+                       <div class="upload" style="line-height:1px;">
+                        <br>
+                       <h5>Invoice 01.pdf  </h5><img class="tick" src="../../assets/images/Layout/check-mark@2x.jpg" >
+                       <h5>Invoice 02.pdf  </h5><img class="tick" src="../../assets/images/Layout/check-mark@2x.jpg" >
+                       <h5>Invoice 03.pdf  </h5><img class="tick" src="../../assets/images/Layout/check-mark@2x.jpg" >
+                       <h5>Invoice 04.pdf  </h5><img class="tick" src="../../assets/images/Layout/check-mark@2x.jpg" >
+                       <h5>Invoice 05.pdf  </h5><img class="tick" src="../../assets/images/Layout/check-mark@2x.jpg" style="margin-bottom: 22px" >
+                       <a routerLink="/dashboard">
+                       <button  type="submit" class="btn btn-primary"style="top: 742px;
+                        left: 739px;
+                        width: 102px;
+                        height: 39px;
+                        color: #177e89;
+                        
+                        /* UI Properties */
+                        background: var(--unnamed-color-177e89) 0% 0% no-repeat padding-box;
+                        background: white 0% 0% no-repeat padding-box;
+                        border-radius: 6px;
+                        font: weight 600px;
+                        opacity: 1;
+                        margin: 12px;">Cancel </button>
+                        </a>
+                      
+                      <button  type="submit" class="btn btn-primary" style="top: 742px;
+                       left: 851px;
+                       width: 102px;
+                       height: 39px;
+                       /* UI Properties */
+                       background: var(--unnamed-color-177e89) 0% 0% no-repeat padding-box;
+                       background: #177E89 0% 0% no-repeat padding-box;
+                       
+                       border-radius: 4px;
+                       opacity: 1;
+                       /* margin:25px 375px 88px; */
+                       ">Create</button>
+                       </div>
+              </mat-card-content>
+
+            </form>
+        </mat-card>
+        </div>
+        

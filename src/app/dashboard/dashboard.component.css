@@ -1,0 +1,208 @@
+.mat-toolbar{
+    top: 0px;
+left: 270px;
+width: 1495px;
+height: 67px;
+/* UI Properties */
+background: #303132 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.mat-card-lg-image{
+top: 15px;
+left: 30px;
+width: 78px;
+height: 36px;
+/* UI Properties */
+opacity: 1;
+}
+.digi{
+    top: -3px;
+left: 0.115234375px;
+width: 40px;
+height: 27px;
+margin: -26px 145px -19px;
+/* UI Properties */
+text-align: center;
+font: normal normal bold 22px/27px Century Gothic;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+.Docq{
+    top: 0px;
+left: 40px;
+width: 64px;
+height: 27px;
+margin: -25px 185px -19px;
+text-align: center;
+font: normal normal normal 22px/27px Century Gothic;
+letter-spacing: 0px;
+color:#FFFFFF;
+}
+.mat-button{
+  
+    color: #FFFFFF;
+    
+    }
+
+.Layout{
+    top: 27px;
+left: 342px;
+width: 123px;
+height: 21px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 16px/21px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin: -31px 331px -24px;
+}
+.Document{
+    top: 27px;
+left: 549px;
+width: 126px;
+height: 21px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #CECECE;
+opacity: 1;
+margin: -39px 539px 20px;
+}
+
+.mat-card-avatar{
+    /* Layout Properties */
+top: 15px;
+left: 1295px;
+width: 38px;
+height: 38px;
+/* UI Properties */
+background: transparent url('src\assets\images\Dashboard\Ellipse 65.jpg') 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FFFFFF;
+opacity: 1;
+}
+.h3{
+    top: 115px;
+left: 60px;
+width: 64px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+
+
+
+
+.mat-card-md-image{
+    top: 443px;
+left: 435px;
+width: 35px;
+height: 32px;
+/* UI Properties */
+background: transparent url('src\assets\images\Dashboard\Group 15501@2x.jpg') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin:3px 19px 0px;
+}
+.mat-card-sm-image{
+    top: 451px;
+    left: 212px;
+    width: 40px;
+    height: 32px;
+    /* UI Properties */
+    background: transparent url('src\assets\images\Dashboard\Group 15502@2x.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+New Layout{
+    top: 163px;
+left: 1285px;
+width: 74px;
+height: 19px;
+/* UI Properties */
+text-align: center;
+font: normal normal medium 14px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+th{
+    text-align: center;
+font: normal normal medium 14px/14px Roboto;
+letter-spacing: 0.7px;
+color: #21282F;
+opacity: 1;
+}
+td{
+    text-align: center;
+font: normal normal normal 12px/14px Roboto;
+letter-spacing: 0.6px;
+color: #86899A;
+opacity: 1; 
+}
+
+*{  
+    margin: 0;  
+    padding: 0; 
+  }  
+
+  .container{  
+    display:flex;  
+    justify-content:center;  
+    align-items:center;  
+    height:75vh;  
+    width:208vh;  
+    flex-wrap:wrap;  
+    margin: -35px -25px 0px;
+  }  
+  .item{  
+    height:263px;  
+    width:243px;  
+      
+    margin: 20px;  
+    border-radius: 10px;  
+    border: 1px solid #879EAA;
+  }  
+  .img{  
+    top: 500px;
+left: 129px;
+width: 74px;
+height: 54px;
+/* UI Properties */
+border: 1px solid #BABABA;
+border-radius: 4px;
+margin: 15px 93px 2px;
+opacity: 1;  
+  }  
+  .item1 .img{  
+    background-image:url("src\assets\images\Dashboard\invo.jpg");  
+    background-size: cover;  
+    top: 451px;
+      left: 112px;
+      width: 51px;
+      height: 55px;
+  }  
+
+  .item:hover{  
+    transform:scale(1.1);  
+    transition-duration: 0.5s;  
+    box-shadow: 7px 10px rgba(0,0,0,0.2);  
+    border: 1px solid #879EAA;
+     border-radius: 8px;
+    }  
+    h5{
+        width: 237px;
+height: 5px;
+        color: var(--unnamed-color-177e89);
+text-align: center;
+font: normal normal bold 16px/14px Roboto;
+letter-spacing: 0.8px;
+color: #177E89;
+opacity: 1;
+    }

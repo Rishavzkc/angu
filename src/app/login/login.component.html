@@ -1,0 +1,39 @@
+<div class="left"> 
+    <form class  (ngSubmit)="userLogin()">
+        <section class="copy">
+            <img mat-card-lg-image src="../../assets/images/Login/Group 34@2x.jpg" alt="logo">
+            <br> <br>
+
+            <p>Welcome to</p>
+            <img mat-card-md-image src="../../assets/images/Login/digiDocQ@2x.jpg" alt="logo">
+            <h2>Login</h2>
+           
+            <br>
+        </section>
+        
+        <div class="input-container email">
+            <label for ="email" style="margin: 7px -64px 5px;">Email</label> <br>
+            <input id="email" name="email" placeholder="johnDeo@gmail.com" type="email" [(ngModel)]="login.email">
+        </div>
+        <br>
+        <div class="input-container password">
+            <label for ="password" style="margin:-2px -64px 5px;">Password</label> <br>
+            <input id="password" name="password" placeholder="******|" type="password" [(ngModel)]="login.password">
+            
+        </div>
+        <div class="login-container">
+            <a (click)="forgot()" routerLink>
+                <strong style="margin:0px 100px 190px;">Forgot Password?</strong>
+            </a>
+        </div>
+        <div>
+            <br>
+           <button  type="submit" class="btn btn-primary">LOGIN</button>
+        </div>
+    </form>       
+</div>
+<div class="right"> 
+    <section class="copy">
+        <img mat-card-sm-image src="../../assets/images/Login/undraw_file_searching_re_3evy@2x.jpg"   alt="logo">
+    </section> 
+</div>
